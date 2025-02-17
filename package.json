@@ -1,0 +1,32 @@
+{
+  "name": "js-lec",
+  "version": "1.0.0",
+  "description": "JS-Lec",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --write *.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phattaraphon30055/JS-Lec.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phattaraphon30055/JS-Lec/issues"
+  },
+  "homepage": "https://github.com/Phattaraphon30055/JS-Lec#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  }
+}
