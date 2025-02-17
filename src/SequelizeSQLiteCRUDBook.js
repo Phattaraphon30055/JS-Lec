@@ -18,7 +18,7 @@ const sequelize = new Sequelize('database', 'username', 'password', {
 });
 
 // define the Book model
-const Book = sequelize.define('book', {
+const Book = sequelize.define('books', {
     id: {
         type: Sequelize.INTEGER,
         autoIncrement: true,
